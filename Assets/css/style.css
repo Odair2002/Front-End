@@ -43,39 +43,12 @@ nav li {
 }
 
 .navegacao{
-  padding-right: 7em;
-}
-
-
-
-.menu-lateral--ativo{
-  left: 0;
-  transition: .25s;
-}
-
-.menu-lateral_logo{
-  width: 118px;
-  align-self: center;
-}
-
-.menu-lateral_link{
-  font-size: 25px;
-  height: 64px;
-  color: #95999C;
-  padding-left: 44px;
-  display: flex;
-  align-items: center;
-}
-
-.menu-lateral_link--ativo{
-  color: #FFFFFF;
-  padding-left: 56px;
-  border-left: 8px solid #FFFFFF;
+  padding-right: 2rem;
 }
 
 .Apresentacao {
   text-align: center;
-  padding-bottom: 50vh;
+  padding-bottom: 51.5vh;
 }
 
 .titulo-principal {
@@ -166,28 +139,6 @@ select {
 .titulo-deslocado {
   font-size: 2.5em;
   padding: 1em;
-}
-
-.login{
-  display: inline-block;
-  width: 90vw;
-  text-align: center;
-  padding: 2em;
-  padding-bottom: 22vh;
-}
-
-.login label {
-  text-align: center;
-  padding: 5px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-.input-login {
-	text-align: center;
-	width: 30vw;
-	padding-top: 15px;
-  margin: 10px auto;
 }
 
 .enviarlog {
