@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNICINE</title>
+  <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome-free-6.4.0-web/css/all.css">
+</head>
+
+<body>  
+  <header class="cabecalho">
+    <button class="cabecalho_menu" aria-label="Menu"><i class="fa-solid fa-bars icon"></i></button>
+    <img src="./Assets/img/logo.jpg" alt="Logo" class="logo">
+  </header>
+
+  <nav class="menu-lateral">
+    <img src="./Assets/img/logo.jpg" alt="Logo" class="menu-lateral_logo">
+    <a href="index.html" class="menu-lateral_link"><i class="fa-sharp fa-solid fa-house-chimney"></i>Ínicio</a>
+    <a href="Login.html" class="menu-lateral_link"><i class="fa-solid fa-user"></i>Login</a>
+    <a href="Cadastro.html" class="menu-lateral_link"><i class="fa-solid fa-right-to-bracket"></i>Cadastro</a>
+    <a href="Alimentos.html" class="menu-lateral_link"><i class="fa-solid fa-burger"></i>Alimentos</a>
+    <a href="Filmes.html" class="menu-lateral_link menu-lateral_link--ativo"><i class="fa-solid fa-film"></i>Filmes</a>
+  </nav>
+
+  <h1 class="titulo-principal">Filmes</h1>
+
+  <ul class="produtos">
+    <li>
+      <h2 class="titulo-secundario2">Django</h2>
+      <img class="imagemcomida" src="./Assets/img/djonga.jpg" alt="djonga">
+      <p class="textopreco">R$15,00</p>
+      <input type="checkbox" name="inputbebida" id="b1">
+    </li>
+    <li>
+      <h2 class="titulo-secundario2">Dr.Estranho</h2>
+      <img class="imagemcomida" src="./Assets/img/doutor.jpg" alt="doutor">
+      <p class="textopreco">R$15,00</p>
+      <input type="checkbox" name="inputbebida" id="b2">
+    </li>
+    <li>
+      <h2 class="titulo-secundario2">Legião</h2>
+      <img class="imagemcomida" src="./Assets/img/legiao.jpg" alt="legiao">
+      <p class="textopreco">R$15,00</p>
+      <input type="checkbox" name="inputbebida" id="b3">
+    </li>
+    <li>
+      <h2 class="titulo-secundario2">Aventuras de PI</h2> 
+      <img class="imagemcomida" src="./Assets/img/aventuras.jpg" alt="aventuras">
+      <p class="textopreco">R$15,00</p>
+      <input type="checkbox" name="inputbebida" id="b4">
+    </li>
+    <li>
+      <h2 class="titulo-secundario2">Mário</h2>
+      <img class="imagemcomida" src="./Assets/img/mario.jpg" alt="mario">
+      <p class="textopreco">R$15,00</p>
+      <input type="checkbox" name="inputbebida" id="b5">
+    </li>
+  </ul>
+  
+  <div class="conta">
+    <h1 class="tituloAlimentos">Conta</h1>
+    <input onclick="CalcularConta()" type="submit" value="Valor Total" class="ValorConta">
+  </div>
+
+
+  <footer class="footer"><p>&copy; 2023 Grupo Unicine. Todos os direitos reservados.</p></footer>
+  <script src="./Assets/js/script.js"></script>  
+</body>
+</html>
+  

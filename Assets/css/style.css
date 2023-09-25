@@ -1,0 +1,313 @@
+body {
+  background-color: #1D232A;
+  font-family: 'fontes';
+  color: #FFFFFF;
+}
+
+.fa-solid, .fa-user, .fa-house-chimney, .fa-right-to-bracket {
+  margin-right: 20px;
+}
+
+.fa-burger, .fa-film {
+  margin-right: 20px;
+}
+
+header {
+  background-color: #15191C;
+  box-shadow: 0 4px 4px rgba(0 0 0 0.16);
+}
+
+.cabecalho {
+	position: relative;
+	min-width: 940px;
+  max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 1rem;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo{
+  width: 7em;
+  padding-left: 2rem;
+}
+
+.navegacao{
+  padding-right: 7em;
+}
+
+
+
+.menu-lateral--ativo{
+  left: 0;
+  transition: .25s;
+}
+
+.menu-lateral_logo{
+  width: 118px;
+  align-self: center;
+}
+
+.menu-lateral_link{
+  font-size: 25px;
+  height: 64px;
+  color: #95999C;
+  padding-left: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-lateral_link--ativo{
+  color: #FFFFFF;
+  padding-left: 56px;
+  border-left: 8px solid #FFFFFF;
+}
+
+.Apresentacao {
+  text-align: center;
+  padding-bottom: 50vh;
+}
+
+.titulo-principal {
+  padding: 2em;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.textoAp {
+  font-size: 1.5em;
+  color: white;
+}
+
+.titulo-secundario {
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+  font-size: 1.5em;
+}
+
+.footer {
+  display: block;
+  margin: 0;
+  background-color: #15191C;
+  color: #fff;
+  padding: 35px;
+  text-align: center;
+}
+
+.formulario {
+  display: inline-block;
+  padding: 3em;  
+  width: 50vw;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 15px;
+}
+
+.input-padrao {
+	display: block;
+	margin:  0 0 20px;
+	width: 50%;
+	padding: 10px 65px;
+}
+
+.checkbox {
+	margin: 20px 0;
+} 
+
+select {
+	padding: 5px 15px;
+	font-size: 15px;
+}
+
+.enviar {
+	width: 30%;
+	font-size: 18px;
+	background: Gray;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 15px 0;
+	transition: all 0.7s;
+}
+
+.enviar:hover {
+	background: darkblue;
+	transform: scale(1.1);
+}
+
+.textoCadastro{
+  width: 31vw;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  text-align: center;
+}
+.textoApCadastro {
+  font-size: 1.5em;
+  color: white;
+  text-align: start;
+}
+
+.titulo-deslocado {
+  font-size: 2.5em;
+  padding: 1em;
+}
+
+.login{
+  display: inline-block;
+  width: 90vw;
+  text-align: center;
+  padding: 2em;
+  padding-bottom: 22vh;
+}
+
+.login label {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.input-login {
+	text-align: center;
+	width: 30vw;
+	padding-top: 15px;
+  margin: 10px auto;
+}
+
+.enviarlog {
+  margin: 20px;
+  text-align: center;
+	width: 10%;
+	font-size: 16px;
+	background: Gray;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0;
+	transition: all 0.7s;
+}
+
+.enviarlog:hover {
+	background: darkblue;
+	transform: scale(1.1);
+}
+
+.titulo-principal2 {
+  padding: 1.5em;
+  color: white;
+  font-size: 2.5em;
+}
+
+.comidas_sec {
+  text-align: center;
+}
+
+.imagemcomida {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  transition: all 0.7s;
+}
+
+.produtos {
+  text-align: center;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+  background-color: white;
+  width: 10%;
+  height: 30vh;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid white;
+  border-radius: 10px;
+}
+
+.titulo-secundario2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+}
+
+.textopreco {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.bebidas {
+  text-align: center;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.bebidas li {
+  background-color: white;
+  width: 10%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid white;
+  border-radius: 10px;
+}
+
+.tituloAlimentos{
+  padding: 0.5em;
+  color: white;
+  font-size: 2.5em;
+  margin-left: 15vw;
+}
+
+.tituloAlimentos2{
+  padding: 0.5em;
+  color: white;
+  font-size: 2.5em;
+  padding-right: 55vw;
+}
+
+.conta{
+  padding-bottom: 10vw;
+}
+
+.ValorConta{
+  margin-top: 5em;
+  margin-left: 16vw;
+  padding: 10px;
+  text-align: center;
+	font-size: 16px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	transition: all 0.7s;
+}
+
+.ValorConta:hover{
+  transform: scale(1.1);
+}
