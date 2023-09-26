@@ -1,15 +1,7 @@
 body {
+  font-family: 'Raleway', sans-serif;
   background-color: #1D232A;
-  font-family: 'fontes';
   color: #FFFFFF;
-}
-
-.fa-solid, .fa-user, .fa-house-chimney, .fa-right-to-bracket {
-  margin-right: 20px;
-}
-
-.fa-burger, .fa-film {
-  margin-right: 20px;
 }
 
 header {
@@ -22,6 +14,7 @@ header {
 	min-width: 940px;
   max-width: 1200px;
 	margin: 0 auto;
+  height: 12vh;
 }
 
 nav {
@@ -47,42 +40,55 @@ nav li {
 }
 
 .Apresentacao {
-  text-align: center;
-  padding-bottom: 51.5vh;
+  justify-content: center;
+  min-width: 940px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.banner {
+  padding: 5rem 0;
+  width: 60%;
+  height: 28rem;
+  display: block;
+  margin: 0 auto;
 }
 
 .titulo-principal {
   padding: 2em;
-  color: white;
   font-size: 2.5em;
   text-align: center;
 }
 
 .textoAp {
   font-size: 1.5em;
-  color: white;
 }
 
 .titulo-secundario {
   text-align: center;
   padding: 0.5em;
-  color: white;
   font-size: 1.5em;
 }
 
 .footer {
-  display: block;
   margin: 0;
   background-color: #15191C;
-  color: #fff;
+  height: 3vh;
   padding: 35px;
   text-align: center;
 }
 
+.areaForms {
+  min-width: 940px;
+  max-width: 1200px;
+  padding-top: 5em;
+  margin: 0 auto;
+}
+
 .formulario {
   display: inline-block;
-  padding: 3em;  
-  width: 50vw;
+  padding: 0 3em 3em 0;  
+  width: 35vw;
 }
 
 form label, form legend {
@@ -138,7 +144,7 @@ select {
 
 .titulo-deslocado {
   font-size: 2.5em;
-  padding: 1em;
+  padding: 0 0 1em 0;
 }
 
 .enviarlog {

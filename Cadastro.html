@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UNICINE</title>
-  <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="fontawesome-free-6.4.0-web/css/all.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicine</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap" rel="stylesheet">
+  </head>
 
 <body>  
   <header>
@@ -19,46 +21,47 @@
           <li><a href="index.html">Início</a></li>
           <li><a href="Cadastro.html">Cadastro</a></li>
           <li><a href="Filmes.html">Filmes</a></li>
-          <li><a href="Alimentos.html">Alimentos</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
-  <form class="formulario">
-    <label for="nomesobrenome">Nome e Sobrenome</label>
-    <input type="text" id="nomesobrenome" class="input-padrao" required>	
-
-    <label for="email">E-mail</label>
-    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-    <label for= "telefone">Telefone</label>
-    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-    <label for="senha">Senha</label>
-    <input type="text" id="senha" class="input-padrao" required>
-
-    <fieldset>
-
-      <legend>Como prefere nosso contato?</legend>
-      <label for="radio-email"><input type="radio" name="contato" value="E-mail" id="radio-email">E-mail</label>
-      
-      <label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
-        
-      <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-    
-    </fieldset>
-    
-    <label><input type="checkbox" class="checkbox" checked> Receber novidades por e-mail</label>
-
-    <input type="submit" value="Efetuar Cadastro" class="enviar">
-  </form>
   
-  <div class="textoCadastro">
-    <h1 class="titulo-deslocado">Faça seu Cadastro</h1>
-    <p class="textoApCadastro">Realize nessa página o seu cadastro. Preencha seus dados para receber promoções e ter acesso a preços especiais.
-    Aqui no Unicine você também concorre a prêmios todo mês</p>
-  </div>
+  <section class="areaForms">
+    <form class="formulario" method="post">
+      <label for="nomesobrenome">Nome e Sobrenome</label>
+      <input type="text" id="nomesobrenome" class="input-padrao" required>	
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+      <label for= "telefone">Telefone</label>
+      <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+      <label for="senha">Senha</label>
+      <input type="text" id="senha" class="input-padrao" required>
+
+      <fieldset>
+
+        <legend>Como prefere nosso contato?</legend>
+        <label for="radio-email"><input type="radio" name="contato" value="E-mail" id="radio-email">E-mail</label>
+        
+        <label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
+          
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+      
+      </fieldset>
+      
+      <label><input type="checkbox" class="checkbox" checked> Receber novidades por e-mail</label>
+
+      <input type="submit" value="Efetuar Cadastro" class="enviar">
+    </form>
+    
+    <div class="textoCadastro">
+      <h1 class="titulo-deslocado">Faça seu Cadastro</h1>
+      <p class="textoApCadastro">Realize nessa página o seu cadastro. Preencha seus dados para receber promoções e ter acesso a preços especiais.
+      Aqui no Unicine você também concorre a prêmios todo mês!</p>
+    </div>
+  </section>
 
 <footer class="footer"><p>&copy; 2023 Grupo Unicine. Todos os direitos reservados.</p></footer>
 <script src="./Assets/js/script.js"></script>  
