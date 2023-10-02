@@ -186,9 +186,12 @@ select {
   text-align: center;
 	margin: 0 auto;
 	padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 
-.produtos li {
+/* .produtos li {
   background-color: white;
   width: 10%;
   height: 30vh;
@@ -200,19 +203,30 @@ select {
 	box-sizing: border-box;
 	border: 2px solid white;
   border-radius: 10px;
+} */
+
+.produtos li img{
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.produtos li img:hover{
+  background-color: gray;
+  
 }
 
 .titulo-secundario2 {
   font-size: 24px;
   font-weight: bold;
   padding: 10px;
-  color: black;
+  color: white;
 }
 
 .textopreco {
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 10px;
-  color: black;
+  color: rgb(49, 125, 49);
   font-weight: bold;
 }
 
